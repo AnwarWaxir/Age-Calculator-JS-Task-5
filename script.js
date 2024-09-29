@@ -9,4 +9,7 @@ document.getElementById('calculateBtn').addEventListener('click', function(){
     var dateOfBirth = new Date(final_date_input)
     var totalTime = now - dateOfBirth;
 
+    var year = Math.floor(totalTime / (1000*60*60*24*365.25))
+    console.log(year)
+
 })
