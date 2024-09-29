@@ -6,5 +6,7 @@ document.getElementById('calculateBtn').addEventListener('click', function(){
     var day = document.getElementById('day-number')
 
     var now = new Date()
-    var dateOfBirth = new (final_date_input)
+    var dateOfBirth = new Date(final_date_input)
+    var totalTime = now - dateOfBirth;
+
 })
