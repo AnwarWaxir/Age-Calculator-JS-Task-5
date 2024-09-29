@@ -4,4 +4,7 @@ document.getElementById('calculateBtn').addEventListener('click', function(){
     var  year = document.getElementById('year-number')
     var month = document.getElementById('month-number')
     var day = document.getElementById('day-number')
+
+    var now = new Date()
+    var dateOfBirth = new (final_date_input)
 })
