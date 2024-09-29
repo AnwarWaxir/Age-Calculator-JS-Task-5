@@ -11,5 +11,5 @@ document.getElementById('calculateBtn').addEventListener('click', function(){
 
     var year = Math.floor(totalTime / (1000*60*60*24*365.25))
     var month = Math.floor(totalTime / (1000*60*60*24*30.44))
-
+    var day = Math.floor(totalTime / (1000*60*60*24))
 })
