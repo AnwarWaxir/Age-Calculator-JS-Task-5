@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(22, 18, 18);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-container{
+    width: 750px;
+    height: 450px;
+    background-color: #0A6CF1;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.first-sub-div{
+    width: 500px;
+    height: 130px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    gap: 30px;
+}
+
+.first-sub-div input, button{
+    padding: 12px 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: x-large;
+    color: black;
+}
+
+.first-sub-div input{
+    width: 200px;
+}
+
+.first-sub-div button{
+    background-color: white;
+    padding: 11px 15px;
+}
+
+.second-sub-div{
+    width: 500px;
+    height: 130px;
+    margin-top: 60px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    color: white;
+}
+
+.second-sub-div div{
+    background-color: black;
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.second-sub-div div h1{
+    font-size: 45px;
+    margin-bottom: -13px;
+}
+
+.second-sub-div div p{
+    color: #686868;
+    font-size: large;
+    font-weight: 600;
+}
