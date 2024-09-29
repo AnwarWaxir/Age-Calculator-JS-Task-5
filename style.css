@@ -44,6 +44,7 @@ body{
 .first-sub-div button{
     background-color: white;
     padding: 11px 15px;
+    cursor: pointer;
 }
 
 .second-sub-div{
