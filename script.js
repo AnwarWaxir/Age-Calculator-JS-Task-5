@@ -10,6 +10,6 @@ document.getElementById('calculateBtn').addEventListener('click', function(){
     var totalTime = now - dateOfBirth;
 
     var year = Math.floor(totalTime / (1000*60*60*24*365.25))
-    console.log(year)
+    var month = Math.floor(totalTime / (1000*60*60*24*30.44))
 
 })
